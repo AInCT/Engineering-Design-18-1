@@ -1,4 +1,4 @@
-# 2016136032 Who's Repository
+# 2016136032 김형찬's Repository
 
 create a new repository on the command line
 

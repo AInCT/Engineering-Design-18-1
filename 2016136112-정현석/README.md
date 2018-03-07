@@ -1,4 +1,4 @@
-# 2014136106 Who's Repository
+# 2016136112 정현석's Repository
 
 create a new repository on the command line
 
