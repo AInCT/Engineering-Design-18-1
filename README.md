@@ -37,22 +37,30 @@
 └── README.md
 ```
 
-create a new repository on the command line
+### GIT 사용 방법 
 
-```
-git clone https://github.com/AInCT/Graduation-Design-18-1.git
-git init
-git add *
-git commit -m "your commit message"
-git remote add origin https://github.com/AInCT/Engineering-Design-18-1.git
-git pull origin master
-git push -u origin master
-```
+```c
+[최초에만] 1. repo 클론하기
+zero@ubuntu:~/Desktop$ git clone https://github.com/AInCT/Engineering-Design-18-1.git
 
-push an existing repository from the command line
+2. 최신상태로 업데이트 하기
+zero@ubuntu:~/Desktop/Engineering-Design-18-1$ git pull
+Already up-to-date. <-- 확인필수
 
-```
-git remote add origin https://github.com/AInCT/Engineering-Design-18-1.git
-git pull origin master
-git push -u origin master
+3. 자기 폴더에 폴더생성하고 ppt 넣기
+
+4. git 에 올린 폴더 추가 해 주기 (. 이 현재 폴더라는 뜻, 안전하게? 자기 폴더로 이동해서 명령어 치기)
+zero@ubuntu:~/Desktop/Engineering-Design-18-1$ git add -A .
+
+5. 커밋하기 (커밋하면 뭐라 아래 뜸)
+zero@ubuntu:~/Desktop/Engineering-Design-18-1$ git commit -m "remove file"
+[master fad931b] remove file
+ Committer: AInCT <zero@ubuntu.ubuntu-domain>
+...
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 2018-04-18-Blockchain.pptx
+
+6. github repo 에 최종적으로 업로드하기
+zero@ubuntu:~/Desktop/Engineering-Design-18-1$ git push
+...
 ```
